@@ -4,10 +4,10 @@
 ## Team Information
 - **Team name:** Your Team Name
 - **Members:**
-  - Member 1
-  - Member 2
-  - Member 3
-
+  - Trần Lê Tiến Dũng
+  - Phan Quốc Tiến
+  - Nguyễn Phúc Tâm
+  - Nguyễn Trần Như Nguyệt
 ---
 
 ## Project Overview
@@ -39,10 +39,7 @@ The project includes:
 │   ├── sales.csv
 │   └── other_data_files.csv
 └── src/
-    ├── features.py
-    ├── train.py
-    ├── predict.py
-    └── model.ipynb
+    ├── sales_prediction.ipynb
 ```
 
 ### Folder Description
@@ -52,10 +49,7 @@ Contains raw datasets used for training and prediction.
 
 #### `src/`
 Contains source code:
-- `features.py`: feature engineering pipeline
-- `train.py`: model training scripts
-- `predict.py`: inference and submission generation
-- `model.ipynb`: Kaggle notebook experiments
+- sales_prediction.ipynb: 
 
 ---
 
