@@ -40,6 +40,7 @@ The project includes:
 │   └── other_data_files.csv
 └── src/
     ├── sales_prediction.ipynb
+    └── EDA.ipynb
 ```
 
 ### Folder Description
@@ -49,7 +50,8 @@ Contains raw datasets used for training and prediction.
 
 #### `src/`
 Contains source code:
-- sales_prediction.ipynb: all code of the competition
+- sales_prediction.ipynb: all code of the third task
+- EDA.ipynb: all code of the second task
 
 ---
 
