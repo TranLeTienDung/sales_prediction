@@ -2,7 +2,7 @@
 # Sales Forecasting Competition
 
 ## Team Information
-- **Team name:** Your Team Name
+- **Team name:** Tứ Hành Xung
 - **Members:**
   - Trần Lê Tiến Dũng
   - Phan Quốc Tiến
@@ -49,7 +49,7 @@ Contains raw datasets used for training and prediction.
 
 #### `src/`
 Contains source code:
-- sales_prediction.ipynb: 
+- sales_prediction.ipynb: all code of the competition
 
 ---
 
@@ -68,11 +68,11 @@ pip install -r requirements.txt
 ```
 
 Main libraries:
-- pandas
-- numpy
-- scikit-learn
-- lightgbm
-- prophet
+- Pandas
+- Numpy
+- Scikit-learn
+- Lightgbm
+- Prophet
 
 ---
 
@@ -83,15 +83,15 @@ Main libraries:
 Run:
 
 ```bash
-python src/train.py
+python src/sales_prediction_ipynb
 ```
 
 This script will:
-- build features
-- train Ridge model
-- train LightGBM model
-- train Prophet model
-- perform ensemble blending
+- Build features
+- Train Ridge model
+- Train LightGBM model
+- Train Prophet model
+- Perform ensemble blending
 
 ---
 
@@ -100,7 +100,7 @@ This script will:
 Run:
 
 ```bash
-python src/predict.py
+python src/sales_prediction.ipynb
 ```
 
 Prediction outputs will be generated automatically.
